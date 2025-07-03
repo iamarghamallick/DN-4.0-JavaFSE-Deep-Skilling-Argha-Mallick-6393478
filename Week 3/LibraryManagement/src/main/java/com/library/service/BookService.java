@@ -13,4 +13,8 @@ public class BookService {
         System.out.println("Inside BookRepository.addBook()");
         bookRepository.save();
     }
+
+    public void testService() {
+        System.out.println("Book Service is working...");
+    }
 }
