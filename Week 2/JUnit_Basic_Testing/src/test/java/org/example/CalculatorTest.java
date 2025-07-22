@@ -1,8 +1,10 @@
 package org.example;
 import org.junit.After;
+import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 import static org.junit.Assert.*;
+import static org.junit.jupiter.api.Assertions.*;
 
 public class CalculatorTest {
     private Calculator calc;
@@ -32,9 +34,9 @@ public class CalculatorTest {
 
     @Test
     public void testAssertions() {
-        assertTrue(10 > 5);
-        assertFalse(5 > 10);
-        assertNull(null);
-        assertNotNull(new Object());
+        Assert.assertTrue(10 > 5);
+        Assert.assertFalse(5 > 10);
+        Assert.assertNull(null);
+        Assert.assertNotNull(new Object());
     }
 }
