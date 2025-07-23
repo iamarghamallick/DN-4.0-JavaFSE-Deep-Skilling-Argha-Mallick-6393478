@@ -1,8 +1,8 @@
 package com.example;
 
-public class ExternalApi {
-    public String getData() {
-        // Normally fetch from a web API or DB
-        return "Real Data";
-    }
+public interface ExternalApi {
+    String getData();
+    String getData(String id);
+    void performAction(String command);
+    void voidMethod();
 }
