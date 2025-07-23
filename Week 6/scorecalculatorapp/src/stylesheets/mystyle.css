@@ -1,0 +1,22 @@
+.name {
+    font-weight: 300;
+    color: blue;
+    ;
+}
+
+.school {
+    color: crimson;
+}
+
+.total {
+    color: darkmagenta;
+}
+
+.formatstyle {
+    text-align: center;
+    font-size: large;
+}
+
+.score {
+    color: forestgreen;
+}
